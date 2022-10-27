@@ -17,7 +17,7 @@ class Kanye extends React.Component {
       console.log(data);
       this.setState( { quote: data.quote });
     } catch (error) {
-      console.error(`error ${error} fetching quote`);
+      console.error(`There was an error ${error} fetching quote`);
     }
   }
 
